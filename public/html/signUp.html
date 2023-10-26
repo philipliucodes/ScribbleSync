@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Sign Up</title>
-    <link rel="stylesheet" href="../public/css/login.css" />
+    <link rel="stylesheet" href="../css/login.css" />
   </head>
   <body>
     <div class="center">
@@ -24,7 +24,7 @@
           <span></span>
           <label>Password</label>
         </div>
-        <input type="submit" id="signUp" name="signUp" />
+        <input type="submit" value="Sign Up" id="signUp" />
         <div class="signup_link"></div>
       </form>
     </div>
@@ -75,6 +75,7 @@
             email: email,
           });
           alert("User created!");
+          href = "signUp.html";
           // ...
         })
         .catch((error) => {
