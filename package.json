@@ -1,0 +1,22 @@
+{
+  "name": "scribblesync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipliucodes/ScribbleSync.git"
+  },
+  "author": "Philip Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipliucodes/ScribbleSync/issues"
+  },
+  "homepage": "https://github.com/philipliucodes/ScribbleSync#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
